@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422512789135",
+    "project_id": "estacionamento-7d3f4",
+    "storage_bucket": "estacionamento-7d3f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422512789135:android:840d7d539e705431dfd2fa",
+        "android_client_info": {
+          "package_name": "com.yuriapps.estacionamento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422512789135-0u7dnaciv3cbtjof7lcj1ll293gahjtj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTZwEm1_ekf2APP9lTol2wLgeYeGkmnTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422512789135-0u7dnaciv3cbtjof7lcj1ll293gahjtj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
