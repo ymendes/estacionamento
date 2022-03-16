@@ -35,20 +35,18 @@ class HistoricController extends GetxController {
 
   void returnDatesParking() {
     List<DateTime> _dates = [];
+    bool dataIgual = false;
     for (Register register in historic.listRegisters) {
-      if(_dates.isNotEmpty ) {
-        print(_dates);
-        print("dentro do if");
-        for (DateTime date in _dates) {
-          if (register.entryDateTime != date) {
-            _dates.add(register.entryDateTime);
-          }
+      for(DateTime date in _dates){
+        if(isEqualsDate(date, register.entryDateTime)){
+          dataIgual = true;
         }
-      }else{
-        print("dentro do else");
+      }
+      if(!dataIgual){
+        print(register.entryDateTime);
         _dates.add(register.entryDateTime);
       }
-    }
+  }
     listDates = _dates.toSet().toList();
   }
 }
